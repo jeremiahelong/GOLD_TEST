@@ -7,7 +7,11 @@ def getAmazonPrice(productURL):
     elems = soup.select('#site-footer > nav > ul > li:nth-child(3) > ul > li:nth-child(2) > ul > li:nth-child(3) > span:nth-child(2)')
     return elems[0].text.strip()
 
-print("Alex dosen't like ballz")
+
+
+
+print("Alex likes ballzzz")
+
 
 price = getAmazonPrice('https://www.goldcu.org/')
 print('Gold address is ' + price)
